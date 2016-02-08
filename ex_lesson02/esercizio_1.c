@@ -2,15 +2,16 @@
 
 void main()
 {
-   //creare array 20 elementi
-   int myarrey[20];
-   myarrey[0] = 20;
-   myarrey[1] = 19;
+int myarrey[20];
 
-   for(i = 0; i < 20; i++)
    {
-      printf("%d", i);
-
+   for(int i = 0; i < 20; i++)
+   {
+     myarrey[i] = 20 -i;
    }
-
+   for(int i = 0; i < 20; i++)
+   {
+     printf('%d\n' myarrey[i]);
+   }
+}
 }
